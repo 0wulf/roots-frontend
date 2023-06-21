@@ -39,9 +39,3 @@ Hemos comenzado el desarrollo de la interfaz de usuario, inspirados, evidentemen
 ![gif frontend](https://github.com/0wulf/roots-frontend/assets/101217121/6523bc20-e40c-4104-8763-79f40786581c)
 
 ![gif frontend 2](https://github.com/0wulf/roots-frontend/assets/101217121/3d036f00-9370-4f58-8fb4-7260b60da6ea)
-
-
-
-## Links
-- [Repositorio Frontend](https://github.com/0wulf/roots-frontend)
-- [Repositorio Backend](https://github.com/0wulf/roots-backend)

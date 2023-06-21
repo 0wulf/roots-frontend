@@ -1,4 +1,5 @@
- # ROOTS
+# ROOTS
+
 *ROOTS* es una **aplicación** que facilita el proceso de recuperación de **residuos orgánicos**, con una **plataforma interactiva** que permite motivar a los usuarios a aumentar sus niveles de recolección de residuos. 
 
 ## *ROOTS* permite:

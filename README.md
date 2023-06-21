@@ -18,12 +18,12 @@ https://github.com/0wulf/roots-frontend/assets/101217121/f909ed39-983d-4fc1-8ca9
 ## Arquitectura
 ROOTS es una plataforma con una arquitectura MVC compuesta por una base de datos de Postgres, una interfaz de aplicación  y una interfaz de usuario.
 
-modelo arq
+![IIC2513 Diagrama E_R juego(2)](https://github.com/0wulf/roots-frontend/assets/101217121/0d6b15e6-8198-4601-9313-48c2a02b17a2)
 
 ### Base de datos
 El sistema de bases de datos utiliza Postgres. Acá almacenamos la información que manipula la aplicación y tiene un modelo E/R como sigue:
 
-modelo er
+![IIC2513 Diagrama E_R juego(3)](https://github.com/0wulf/roots-frontend/assets/101217121/d068a9b0-ef39-4be0-b8d1-d70c1f0b22ed)
 
 ### [roots-api](https://roots-api.onrender.com)
 Contamos con una interfaz de aplicación (API montada en `node.js + koa + sequelize`) que nos permite calcular las estimaciones del impacto de los usuarios y almacenar esta información en la base de datos.

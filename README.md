@@ -1,5 +1,5 @@
 ### *Disclaimer*
-Prefiera leer este documento en su [página original]().
+Prefiera leer este documento en su [página original](https://github.com/0wulf/roots-frontend/blob/main/README.md).
 
 # ROOTS
 

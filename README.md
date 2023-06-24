@@ -35,7 +35,7 @@ Contamos con un [prototipo](https://www.figma.com/proto/fVerwk6SUqxPyG2U9HON7o/E
 </div>
 
 ## Arquitectura
-ROOTS es una plataforma con una arquitectura MVC compuesta por una base de datos de Postgres, una interfaz de aplicación  y una interfaz de usuario.
+ROOTS es una plataforma con una arquitectura MVC compuesta por una base de datos de Postgres, una interfaz de aplicación y una interfaz de usuario.
 
 <div align=center>
   <img height=60% width=60% src="https://github.com/0wulf/roots-frontend/assets/101217121/0d6b15e6-8198-4601-9313-48c2a02b17a2">
@@ -59,7 +59,7 @@ Contamos con una interfaz de aplicación (API montada en `node.js + koa + sequel
 Hemos generado un modelo en base a datos confiables, el cual permite estimar la cantidad de RROO que genera un usuario. Luego esta cantidad se traduce a diversas unidades (e.g. reducción de la huella de carbono, compost generado, etc.) que permiten mostrar el impacto del usuario.
 
 ### [UI](https://roots-chile.netlify.app/)
-Hemos comenzado el desarrollo de la interfaz de usuario, inspirados, evidentemente, en el [prototipo actual](#ROOTS##prototipo). Esta interfaz funciona como una prueba de concepto de lo mostrado en el prototipo y permite construir un producto mínimo viable
+Hemos comenzado el desarrollo de la interfaz de usuario, inspirados, evidentemente, en el [prototipo actual](#ROOTS##prototipo). Esta interfaz (`node.js + react`) funciona como una prueba de concepto de lo mostrado en el prototipo y permite construir un producto mínimo viable.
 
 <div align=center>
   <img height=30% width=30% src="https://github.com/0wulf/roots-frontend/assets/101217121/6523bc20-e40c-4104-8763-79f40786581c">

@@ -16,7 +16,7 @@ interface Props {
 
 export const App: FC<Props> = memo(function App(props = {}) {
   useEffect(() => {
-    alert("Bienvenido a ROOTS.\nRecuerda que este prototipo es una versión de prueba de la interfaz de usuario.\nEstarás logueado como el usuario por defecto. Esto quiere decir que si otra persona está usando la aplicación al mismo tiempo que tú, verás los cambios que esa persona haga en tiempo real.\nEsta prueba de concepto permite comunicarse con la API, desplegando las funcionalidades de manejo de datos de recolección y de transformación del impacto a unidades relevantes.\nPara ver el prototipo de diseño de la interfaz de usuario puedes visitar https://www.figma.com/proto/fVerwk6SUqxPyG2U9HON7o/EducApp?node-id=167-22&starting-point-node-id=147%3A3");
+    alert("Bienvenido a ROOTS.\nRecuerda que este prototipo es una versión de prueba de la interfaz de usuario.\nEstarás logueado como el usuario por defecto. Esto quiere decir que si otra persona está usando la aplicación al mismo tiempo que tú, verás los cambios que esa persona haga en tiempo real.\nEsta prueba de concepto permite comunicarse con la API, desplegando las funcionalidades de manejo de datos de recolección y de transformación del impacto a unidades relevantes.\nPara ver el prototipo de diseño de la interfaz de usuario puedes visitar https://t.ly/fdun");
   }, []);
   return (
     <>

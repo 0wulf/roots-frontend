@@ -1,4 +1,4 @@
-import { memo } from 'react';
+import { memo, useEffect } from 'react';
 import type { FC } from 'react';
 
 import classes from './App.module.css';
@@ -15,6 +15,9 @@ interface Props {
 }
 
 export const App: FC<Props> = memo(function App(props = {}) {
+  useEffect(() => {
+    alert("Bienvenido a ROOTS. Recuerda que este prototipo es una versión de prueba de la interfaz de usuario. Estarás logueado como el usuario por defecto. Esto quiere decir que si otra persona está usando la aplicación al mismo tiempo que tú, verás los cambios que esa persona haga en tiempo real.");
+  }, []);
   return (
     <>
       <BrowserRouter>

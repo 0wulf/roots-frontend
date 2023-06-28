@@ -17,8 +17,16 @@ Prefiera leer este documento en su [página original](https://github.com/0wulf/r
 * Invitar a amigos a la plataforma.
 
 ## Prototipo
-Contamos con un [prototipo](https://www.figma.com/proto/fVerwk6SUqxPyG2U9HON7o/EducApp?node-id=167-22&starting-point-node-id=147%3A3) el cual hemos ido testeando e iterando.
 
+### Arquitectura
+ROOTS es una plataforma con una arquitectura MVC compuesta por una base de datos de Postgres, una interfaz de aplicación y una interfaz de usuario.
+
+<div align=center>
+  <img height=60% width=60% src="https://github.com/0wulf/roots-frontend/assets/101217121/0d6b15e6-8198-4601-9313-48c2a02b17a2">
+</div>
+
+### Interfaz de Usuario
+Contamos con un [prototipo de Figma](https://www.figma.com/proto/fVerwk6SUqxPyG2U9HON7o/EducApp?node-id=167-22&starting-point-node-id=147%3A3)  (en dispositivos móviles no se despliega correctamente a menos que utilice la aplicación de Figma) el cual hemos ido testeando e iterando.
 
 <div align=center>
   <img height=30% width=30% src="https://github.com/0wulf/roots-frontend/assets/101217121/d8ccd98a-3c4f-4a7e-bfe5-99c0f174b3e1">
@@ -34,11 +42,12 @@ Contamos con un [prototipo](https://www.figma.com/proto/fVerwk6SUqxPyG2U9HON7o/E
   <img height=30% width=30% src="https://github.com/0wulf/roots-frontend/assets/101217121/cca51956-17ef-48a4-87a4-6eaef56f65ca">
 </div>
 
-## Arquitectura
-ROOTS es una plataforma con una arquitectura MVC compuesta por una base de datos de Postgres, una interfaz de aplicación y una interfaz de usuario.
+#### Interfaz Web
+Hemos comenzado el desarrollo de la interfaz de usuario, inspirados, evidentemente, en el [prototipo actual](#ROOTS##prototipo). [Esta interfaz](https://roots-chile.netlify.app/) (`node.js + react`) funciona como una prueba de concepto de lo mostrado en el prototipo y permite construir un producto mínimo viable.
 
 <div align=center>
-  <img height=60% width=60% src="https://github.com/0wulf/roots-frontend/assets/101217121/0d6b15e6-8198-4601-9313-48c2a02b17a2">
+  <img height=30% width=30% src="https://github.com/0wulf/roots-frontend/assets/101217121/6523bc20-e40c-4104-8763-79f40786581c">
+  <img height=30% width=30% src="https://github.com/0wulf/roots-frontend/assets/101217121/3d036f00-9370-4f58-8fb4-7260b60da6ea">
 </div>
 
 ### Base de datos
@@ -58,12 +67,7 @@ Contamos con una interfaz de aplicación (API montada en `node.js + koa + sequel
 #### ¿Cómo estimamos el impacto?
 Hemos generado un modelo en base a datos confiables, el cual permite estimar la cantidad de RROO que genera un usuario. Luego esta cantidad se traduce a diversas unidades (e.g. reducción de la huella de carbono, compost generado, etc.) que permiten mostrar el impacto del usuario.
 
-### [UI](https://roots-chile.netlify.app/)
-Hemos comenzado el desarrollo de la interfaz de usuario, inspirados, evidentemente, en el [prototipo actual](#ROOTS##prototipo). Esta interfaz (`node.js + react`) funciona como una prueba de concepto de lo mostrado en el prototipo y permite construir un producto mínimo viable.
-
-<div align=center>
-  <img height=30% width=30% src="https://github.com/0wulf/roots-frontend/assets/101217121/6523bc20-e40c-4104-8763-79f40786581c">
-  <img height=30% width=30% src="https://github.com/0wulf/roots-frontend/assets/101217121/3d036f00-9370-4f58-8fb4-7260b60da6ea">
-</div>
-
-
+### Links
+* [Prototipo Figma](https://www.figma.com/proto/fVerwk6SUqxPyG2U9HON7o/EducApp?node-id=167-22&starting-point-node-id=147%3A3)
+* [Prototipo UI](https://roots-chile.netlify.app/)
+* [Prototipo API](https://roots-api.onrender.com)

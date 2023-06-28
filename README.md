@@ -65,7 +65,11 @@ Contamos con una interfaz de aplicación (API montada en `node.js + koa + sequel
 </div>
 
 #### ¿Cómo estimamos el impacto?
-Hemos generado un modelo en base a datos confiables, el cual permite estimar la cantidad de RROO que genera un usuario. Luego esta cantidad se traduce a diversas unidades (e.g. reducción de la huella de carbono, compost generado, etc.) que permiten mostrar el impacto del usuario.
+Hemos generado un modelo en base a datos confiables, el cual permite estimar la cantidad de RROO que genera un usuario. Utilizamos ponderadores como la cantidad de RROO generadospor persona al día, el tiempo transcurrido, las huellas de carbono e hídricas para el proceso de compostaje y deposición de basrua, etc. Luego esta cantidad se traduce a diversas unidades (e.g. reducción de la huella de carbono, compost generado, etc.) que permiten mostrar el impacto del usuario.
+
+<div align=center>
+  <img height=50% width=50% src="https://github.com/0wulf/roots-frontend/assets/101217121/b8f315ac-34da-4cc0-98fa-26f51277babb">
+</div>
 
 ### Links
 * [Prototipo Figma](https://www.figma.com/proto/fVerwk6SUqxPyG2U9HON7o/EducApp?node-id=167-22&starting-point-node-id=147%3A3)

@@ -72,6 +72,6 @@ Hemos generado un modelo en base a datos confiables, el cual permite estimar la 
 </div>
 
 ### Links
-* [Prototipo Figma](https://www.figma.com/proto/fVerwk6SUqxPyG2U9HON7o/EducApp?node-id=167-22&starting-point-node-id=147%3A3)
+* [Prototipo Figma](https://www.figma.com/proto/fVerwk6SUqxPyG2U9HON7o/EducApp?node-id=167-22&starting-point-node-id=147%3A3) (en dispositivos móviles utilizar la aplicación de Figma o la versión de escritorio)
 * [Prototipo UI](https://roots-chile.netlify.app/)
 * [Prototipo API](https://roots-api.onrender.com)
